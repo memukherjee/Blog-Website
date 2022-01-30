@@ -1,0 +1,10 @@
+<%- include('partials/header'); -%> 
+<% if (error) { %>
+    <div class="text-center">
+<% } %>
+<h1><%= title %> </h1>
+<p><%= content %> </p>
+<% if (error) { %>
+    </div>
+<% } %>
+<%- include('partials/footer'); -%> 
